@@ -550,7 +550,8 @@ Example:
           box-sizing: border-box;
         }
 
-        /* Can use /deep/ and ::shadow combinators */
+        /* Can use /deep/ and ::shadow combinators.  Note: use of /deep/ and
+         * ::shadow is not recommended. */
         body /deep/ .my-special-view::shadow #thing-inside {
           background: yellow;
         }
